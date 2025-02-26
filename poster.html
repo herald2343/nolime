@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster - Noli Me Tangere</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+        body {
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'IM Fell English', serif;
+            color: #4A2C2A;
+            text-align: center;
+            padding: 20px;
+        }
+        .poster-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 245, 230, 0.9);
+            padding: 20px;
+            border: 5px solid #5D4037;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .poster img {
+            width: 100%;
+            border-radius: 10px;
+            border: 3px solid #5D4037;
+        }
+        .character {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin-top: 20px;
+            background: rgba(255, 245, 230, 0.8);
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid #5D4037;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .character img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            border: 2px solid #5D4037;
+            margin-right: 20px;
+        }
+        .character p {
+            font-size: 1.2em;
+            text-align: left;
+        }
+        .comment-section {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 245, 230, 0.9);
+            border-radius: 10px;
+            border: 2px solid #5D4037;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .comment-section input, .comment-section textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #5D4037;
+            border-radius: 5px;
+        }
+        .comment-section button {
+            background: #5D4037;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .comment-section button:hover {
+            background: #3E2723;
+        }
+        .comments {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .comment {
+            background: rgba(255, 245, 230, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #5D4037;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="poster-container">
+        <h1>Noli Me Tangere - Poster </h1>
+        <div class="poster">
+            <img src="poster.jpg" alt="Noli Me Tangere Poster">
+        </div>
+        <div class="description">
+            <p>🎭 Mga Tauhan:</p>
+            <div class="character"><img src="14.png" alt="Lance Climaco"><p>Lance Climaco bilang Crisostomo Ibarra - Anak ni Don Rafael Ibarra, kasintahan ni Maria Clara, at ang bida ng kwento.</p></div>
+            <div class="character"><img src="6.png" alt="Marielle Umpad"><p>Marielle Umpad bilang Maria Clara - Isang mahinhin na dalaga, nag-iisang anak ni Kapitan Tiyago at Donya Pia Alba, at kasintahan ni Crisostomo Ibarra.</p></div>
+            <div class="character"><img src="13.png" alt="Jared Yabut"><p>Jared Yabut bilang Don Rafael Ibarra - Siya ay isang mabait na tao at ang ama ni Crisostomo Ibarra.</p></div>
+            <div class="character"><img src="4.png" alt="Enzo Almira"><p>Enzo Almira bilang Kapitan Tiyago - Ang ama ni Maria Clara, asawa ni Donya Pia Alba, at kilala sa bayan ng San Diego.</p></div>
+            <div class="character"><img src="11.png" alt="Anghel Semelon"><p>Anghel Semelon bilang Pia Alba - Siya ay ina ni Maria Clara at ang asawa ni Kapitan Tiyago.</p></div>
+            <div class="character"><img src="7.png" alt="Lj de Vera"><p>Lj de Vera bilang Tiya Isabel - Tiyahin ni Maria Clara na nagpalaki sa kanya.</p></div>
+            <div class="character"><img src="2.png" alt="John Francisco"><p>John Francisco bilang Padre Damaso - Isang paring Pransiskano na dating kura paroko ng San Diego.</p></div>
+            <div class="character"><img src="3.png" alt="Herald Felongco"><p>Herald Felongco bilang Padre Salvi - Ang paring pumalit kay Padre Damaso.</p></div>
+            <div class="character"><img src="5.png" alt="Roween Oliveros"><p>Roween Oliveros bilang Sisa - Isang mapagmahal na ina.</p></div>
+            <div class="character"><img src="12.png" alt="Leon Parakikay Jr"><p>Leon Parakikay Jr bilang Basilio - Jayco Roda bilang Crispin.</p></div>
+            <div class="character"><img src="10.png" alt="Rhianna Casia"><p>Rhianna Casia bilang Donya Victorina - Asawa ni Don Tiburcio de Espadaña.</p></div>
+            <div class="character"><img src="9.png" alt="Jhoanna Casia"><p>Jhoanna Casia bilang Donya Consolacion - Asawa ng Alperes.</p></div>
+            <div class="character"><img src="8.png" alt="Nicholas Morales"><p>Nicholas Morales bilang Alperes - Pinuno ng mga guardia civil.</p></div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
